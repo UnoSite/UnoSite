@@ -12,4 +12,6 @@ Må aldrig skrives:
 Tjek før hver commit: `git diff --cached` må ikke indeholde noget af ovenstående.
 Er du i tvivl, så lad være og spørg brugeren.
 
+Tilladt: forfatternavnet "Dennis M" i git-historikken og GitHub-brugernavnet "UnoSite".
+
 Chat altid på dansk. Se skillen `unosite-profil` for viden om opbygningen.
