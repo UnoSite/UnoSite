@@ -11,7 +11,7 @@
 
 <p align="center">
     <a href="https://github.com/UnoSite/IsItPayday">
-        <img src="assets/links/isitpayday.svg" width="420" alt="Home Assistant integration - IsItPayday" />
+        <img src="assets/links/isitpayday.svg" width="420" alt="IsItPayday – Home Assistant integration" />
     </a>
 </p>
 

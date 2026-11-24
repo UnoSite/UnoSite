@@ -65,6 +65,7 @@
             transition: background .15s, transform .15s;
         }
         a.link:hover, a.link:focus-visible { background: var(--hover); transform: translateY(-2px); }
+        a.link small { display: block; margin-top: 2px; font-size: .8rem; font-weight: 400; opacity: .75; }
         a.link:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
         footer { margin-top: 40px; font-size: .85rem; color: var(--muted); }
     </style>
@@ -76,7 +77,7 @@
         <p>All my links, in one place.</p>
 
         <ul>
-            <li><a class="link" href="https://github.com/UnoSite/IsItPayday">Home Assistant integration - IsItPayday →</a></li>
+            <li><a class="link" href="https://github.com/UnoSite/IsItPayday">IsItPayday →<small>Home Assistant integration</small></a></li>
             <li><a class="link" href="https://github.com/UnoSite?tab=repositories">All projects →</a></li>
             <li><a class="link" href="https://github.com/UnoSite">Follow UnoSite on GitHub →</a></li>
         </ul>

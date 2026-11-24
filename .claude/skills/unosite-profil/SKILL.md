@@ -17,14 +17,14 @@ Everything in this repo is written in **English**. The repo is **public**: follo
 ## Current links
 | Button | File | URL |
 |---|---|---|
-| Home Assistant integration - IsItPayday | `isitpayday.svg` | https://github.com/UnoSite/IsItPayday |
+| IsItPayday (subtitle: Home Assistant integration) | `isitpayday.svg` | https://github.com/UnoSite/IsItPayday |
 | All projects | `repos.svg` | https://github.com/UnoSite?tab=repositories |
 | Follow UnoSite on GitHub | `github.svg` | https://github.com/UnoSite |
 
 Only link to public repos.
 
 ## Add a link
-1. `.claude/skills/unosite-profil/new-button.sh <filename> "<Label>"` (the arrow is added automatically).
+1. `.claude/skills/unosite-profil/new-button.sh <filename> "<Label>" ["<Subtitle>"]` (the arrow is added automatically; the optional subtitle is shown in smaller text below).
 2. Insert in `README.md` next to the other buttons:
    ```html
    <p align="center">
@@ -33,7 +33,7 @@ Only link to public repos.
        </a>
    </p>
    ```
-3. Add the same link to `index.html`: `<li><a class="link" href="URL"><Label> →</a></li>`.
+3. Add the same link to `index.html`: `<li><a class="link" href="URL"><Label> →</a></li>` (with subtitle: `<Label> →<small><Subtitle></small>`).
 4. Update the table above.
 
 **Links live in two places (README.md and index.html) – always update both.**
