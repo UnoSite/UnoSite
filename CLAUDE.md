@@ -17,3 +17,7 @@ When in doubt, leave it out and ask the user.
 Allowed: the author name "Dennis M" in the git history and the GitHub username "UnoSite".
 
 See the `unosite-profil` skill for how the repo is structured.
+
+## Shorthand commands from the user
+- **"PR"** → create a pull request for the current branch against `main`.
+- **"merge"** → merge the open pull request (use squash merge).
