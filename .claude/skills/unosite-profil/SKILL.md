@@ -5,7 +5,7 @@ description: Viden om UnoSite/UnoSite (GitHub-profil-README i linktree-stil). Br
 
 # UnoSite-profilen
 
-Chat altid på dansk. Repoet er **offentligt** – skriv aldrig e-mail eller andre private oplysninger i filerne.
+Chat altid på dansk. Repoet er **offentligt**: følg reglerne i `CLAUDE.md` – ingen personfølsomme oplysninger, nogensinde.
 
 ## Struktur
 - `README.md` – profilsiden. Rækkefølge: banner (`assets/top.png`) → hilsen → link-knapper → `<details>` med stats.
