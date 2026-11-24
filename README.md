@@ -16,6 +16,12 @@
 </p>
 
 <p align="center">
+    <a href="https://hama.unosite.dk">
+        <img src="assets/links/hama.svg" width="420" alt="Hama Bead Stock" />
+    </a>
+</p>
+
+<p align="center">
     <a href="https://github.com/UnoSite?tab=repositories">
         <img src="assets/links/repos.svg" width="420" alt="All projects" />
     </a>
