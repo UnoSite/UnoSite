@@ -1,6 +1,6 @@
 ---
 name: unosite-profil
-description: Knowledge about UnoSite/UnoSite (GitHub profile README in linktree style). Use when changing the profile, the link buttons, the stats cards or the workflow, or when adding a new link.
+description: Knowledge about UnoSite/UnoSite (GitHub profile README in linktree style). Use when changing the profile or the link buttons, or when adding a new link.
 ---
 
 # UnoSite profile
@@ -8,10 +8,9 @@ description: Knowledge about UnoSite/UnoSite (GitHub profile README in linktree 
 Everything in this repo is written in **English**. The repo is **public**: follow the rules in `CLAUDE.md` – no personal data, ever.
 
 ## Structure
-- `README.md` – the profile page. Order: banner (`assets/top.png`) → greeting → link buttons → `<details>` with stats.
+- `README.md` – the profile page. Order: banner (`assets/top.png`) → greeting → link buttons.
 - `assets/links/*.svg` – link buttons (420×56, dark `#161b22`, lime `#cad404` border/text).
-- `profile/*.svg` – stats, languages and trophy cards. **Never edit by hand**: generated nightly by `.github/workflows/update-profile-cards.yml`, which commits straight to `main` ("Update profile cards").
-- The streak card is loaded live from streak-stats.demolab.com (holi-theme, `cad404`).
+- GitHub stats/streak/trophy cards were removed on purpose – don't add them back unless asked.
 
 ## Current links
 | Button | File | URL |
