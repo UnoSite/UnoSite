@@ -40,7 +40,7 @@ Only link to public repos.
 No visual check needed – the template is tested.
 
 ## DNS (Simply.com, product `unosite.dk`)
-Apex `@`: A 185.199.108.153 / .109 / .110 / .111 and AAAA 2606:50c0:8000::153 … 8003::153. `www`: CNAME `unosite.github.io`. Don't touch other records (mail, Stripe, Pangolin subdomains etc.).
+Apex `@`: ALIAS → `unosite.github.io`. `www`: CNAME → `unosite.github.io`. Both have the comment "GitHub Pages". Don't touch other records (mail, Stripe, Pangolin subdomains etc.).
 
 ## Known issues
 - `assets/top.png` (1920×650) is completely white.
