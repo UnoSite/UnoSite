@@ -1,8 +1,8 @@
-name: Opdater profilkort
+name: Update profile cards
 
 on:
   schedule:
-    - cron: "17 3 * * *" # Hver nat
+    - cron: "17 3 * * *" # Nightly
   workflow_dispatch:
   push:
     branches: [main]
@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Stats-kort
+      - name: Stats card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
@@ -27,7 +27,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
-      - name: Top-sprog-kort
+      - name: Top languages card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
@@ -36,7 +36,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
-      - name: Trofæer
+      - name: Trophies
         uses: ryo-ma/github-profile-trophy@e3c89df995e92e67cdd4b2acaab9d974583dc1f7
         with:
           username: ${{ github.repository_owner }}
@@ -44,10 +44,10 @@ jobs:
           theme: gitdimmed
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit kort
+      - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/*.svg
-          git commit -m "Opdater profilkort" || exit 0
+          git commit -m "Update profile cards" || exit 0
           git push

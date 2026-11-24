@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Brug: new-button.sh <filnavn> "<knaptekst>"
-# Laver assets/links/<filnavn>.svg i linktree-stilen (420x56, limegrøn #cad404).
+# Usage: new-button.sh <filename> "<label>"
+# Creates assets/links/<filename>.svg in the linktree style (420x56, lime #cad404).
 set -euo pipefail
 cd "$(git rev-parse --show-toplevel)"
 mkdir -p assets/links

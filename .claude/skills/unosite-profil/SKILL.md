@@ -1,44 +1,44 @@
 ---
 name: unosite-profil
-description: Viden om UnoSite/UnoSite (GitHub-profil-README i linktree-stil). Brug når profilen, link-knapperne, stats-kortene eller workflowet skal ændres, eller når der skal tilføjes et nyt link.
+description: Knowledge about UnoSite/UnoSite (GitHub profile README in linktree style). Use when changing the profile, the link buttons, the stats cards or the workflow, or when adding a new link.
 ---
 
-# UnoSite-profilen
+# UnoSite profile
 
-Chat altid på dansk. Repoet er **offentligt**: følg reglerne i `CLAUDE.md` – ingen personfølsomme oplysninger, nogensinde.
+Everything in this repo is written in **English**. The repo is **public**: follow the rules in `CLAUDE.md` – no personal data, ever.
 
-## Struktur
-- `README.md` – profilsiden. Rækkefølge: banner (`assets/top.png`) → hilsen → link-knapper → `<details>` med stats.
-- `assets/links/*.svg` – link-knapperne (420×56, mørk `#161b22`, kant/tekst limegrøn `#cad404`).
-- `profile/*.svg` – stats-, sprog- og trofækort. **Rør dem ikke i hånden**: de genereres hver nat af `.github/workflows/update-profile-cards.yml`, som committer direkte til `main` ("Opdater profilkort").
-- Streak-kortet hentes live fra streak-stats.demolab.com (holi-theme, `cad404`).
+## Structure
+- `README.md` – the profile page. Order: banner (`assets/top.png`) → greeting → link buttons → `<details>` with stats.
+- `assets/links/*.svg` – link buttons (420×56, dark `#161b22`, lime `#cad404` border/text).
+- `profile/*.svg` – stats, languages and trophy cards. **Never edit by hand**: generated nightly by `.github/workflows/update-profile-cards.yml`, which commits straight to `main` ("Update profile cards").
+- The streak card is loaded live from streak-stats.demolab.com (holi-theme, `cad404`).
 
-## Nuværende links
-| Knap | Fil | URL |
+## Current links
+| Button | File | URL |
 |---|---|---|
 | IsItPayday | `isitpayday.svg` | https://github.com/UnoSite/IsItPayday |
-| Alle projekter | `repos.svg` | https://github.com/UnoSite?tab=repositories |
-| Følg UnoSite på GitHub | `github.svg` | https://github.com/UnoSite |
+| All projects | `repos.svg` | https://github.com/UnoSite?tab=repositories |
+| Follow UnoSite on GitHub | `github.svg` | https://github.com/UnoSite |
 
-Andre repos under UnoSite: Hama-Perle-Lager, fuelprice-predictor (private), MyFactory (privat, arkiveret). Link ikke til private repos.
+Only link to public repos.
 
-## Tilføj et link
-1. `.claude/skills/unosite-profil/new-button.sh <filnavn> "<Tekst>"` (pilen tilføjes automatisk).
-2. Indsæt i `README.md` ved de andre knapper:
+## Add a link
+1. `.claude/skills/unosite-profil/new-button.sh <filename> "<Label>"` (the arrow is added automatically).
+2. Insert in `README.md` next to the other buttons:
    ```html
    <p align="center">
        <a href="URL">
-           <img src="assets/links/<filnavn>.svg" width="420" alt="<Tekst>" />
+           <img src="assets/links/<filename>.svg" width="420" alt="<Label>" />
        </a>
    </p>
    ```
-3. Opdatér tabellen ovenfor.
-Visuel kontrol er normalt unødvendig – skabelonen er afprøvet.
+3. Update the table above.
+No visual check needed – the template is tested.
 
-## Kendte punkter
-- `assets/top.png` (1920×650) er helt hvid – brugeren er gjort opmærksom på det.
-- Brugeren har ikke givet links til hjemmeside/sociale medier endnu.
+## Known issues
+- `assets/top.png` (1920×650) is completely white.
+- No website/social media links provided yet.
 
 ## Git
-- Arbejd på den branch sessionen angiver, push med `git push -u origin <branch>`.
-- PR #2 (linktree-layoutet) er oprettet mod `main`.
+- Work on the branch the session specifies; push with `git push -u origin <branch>`.
+- Commit messages, PR titles and descriptions in English.

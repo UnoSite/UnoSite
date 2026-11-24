@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-    <b>Hej, jeg er UnoSite</b> 👋<br />
-    Her finder du alle mine links samlet ét sted.
+    <b>Hi, I'm UnoSite</b> 👋<br />
+    All my links, in one place.
 </p>
 
 <br />
@@ -17,25 +17,25 @@
 
 <p align="center">
     <a href="https://github.com/UnoSite?tab=repositories">
-        <img src="assets/links/repos.svg" width="420" alt="Alle projekter" />
+        <img src="assets/links/repos.svg" width="420" alt="All projects" />
     </a>
 </p>
 
 <p align="center">
     <a href="https://github.com/UnoSite">
-        <img src="assets/links/github.svg" width="420" alt="Følg UnoSite på GitHub" />
+        <img src="assets/links/github.svg" width="420" alt="Follow UnoSite on GitHub" />
     </a>
 </p>
 
 <br />
 
 <details>
-<summary><b>:star2: GitHub Stats &amp; Trofæer</b></summary>
+<summary><b>:star2: GitHub Stats &amp; Trophies</b></summary>
 <br />
 
 <p align="center">
     <img height="180" src="profile/stats.svg" alt="GitHub Stats" />
-    <img height="180" src="profile/top-langs.svg" alt="Mest brugte sprog" />
+    <img height="180" src="profile/top-langs.svg" alt="Most used languages" />
 </p>
 
 <p align="center">
