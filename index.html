@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UnoSite</title>
+    <meta name="description" content="All UnoSite links, in one place." />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='32' cy='32' r='30' fill='%23161b22' stroke='%23cad404' stroke-width='4'/><text x='32' y='42' text-anchor='middle' font-family='Arial' font-weight='700' font-size='30' fill='%23cad404'>U</text></svg>" />
+    <style>
+        :root {
+            --bg: #f6f8fa;
+            --card: #ffffff;
+            --text: #1f2328;
+            --muted: #59636e;
+            --accent: #8a9100;
+            --accent-bg: #ffffff;
+            --hover: #f3f6d0;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #0d1117;
+                --card: #161b22;
+                --text: #e6edf3;
+                --muted: #9198a1;
+                --accent: #cad404;
+                --accent-bg: #161b22;
+                --hover: #1f2610;
+            }
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 48px 16px;
+            background: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        }
+        main { width: 100%; max-width: 440px; text-align: center; }
+        .avatar {
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            border: 3px solid var(--accent);
+            background: var(--card);
+            display: block;
+            margin: 0 auto 16px;
+        }
+        h1 { margin: 0 0 6px; font-size: 1.6rem; }
+        p { margin: 0 0 32px; color: var(--muted); }
+        ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+        a.link {
+            display: block;
+            padding: 16px 20px;
+            border: 3px solid var(--accent);
+            border-radius: 999px;
+            background: var(--accent-bg);
+            color: var(--accent);
+            font-weight: 600;
+            font-size: 1.05rem;
+            text-decoration: none;
+            transition: background .15s, transform .15s;
+        }
+        a.link:hover, a.link:focus-visible { background: var(--hover); transform: translateY(-2px); }
+        a.link small { display: block; margin-top: 2px; font-size: .8rem; font-weight: 400; opacity: .75; }
+        a.link:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+        footer { margin-top: 40px; font-size: .85rem; color: var(--muted); }
+    </style>
+</head>
+<body>
+    <main>
+        <img class="avatar" src="https://github.com/UnoSite.png?size=192" alt="UnoSite" />
+        <h1>UnoSite</h1>
+        <p>All my links, in one place.</p>
+
+        <ul>
+            <li><a class="link" href="https://github.com/UnoSite/IsItPayday">IsItPayday →<small>Home Assistant integration</small></a></li>
+            <li><a class="link" href="https://hama.unosite.dk">Hama Bead Stock →</a></li>
+            <li><a class="link" href="https://github.com/UnoSite?tab=repositories">All projects →</a></li>
+            <li><a class="link" href="https://github.com/UnoSite">Follow UnoSite on GitHub →</a></li>
+        </ul>
+
+        <footer>unosite.dk</footer>
+    </main>
+</body>
+</html>

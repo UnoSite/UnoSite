@@ -2,19 +2,33 @@
     <img src="assets/top.png" width="100%" alt="UnoSite" />
 </p>
 
-### :star2: GitHub Stats
+<p align="center">
+    <b>Hi, I'm UnoSite</b> 👋<br />
+    All my links, in one place.
+</p>
+
+<br />
 
 <p align="center">
-    <img height="180" src="profile/stats.svg" alt="GitHub Stats" />
-    <img height="180" src="profile/top-langs.svg" alt="Mest brugte sprog" />
+    <a href="https://github.com/UnoSite/IsItPayday">
+        <img src="assets/links/isitpayday.svg" width="420" alt="IsItPayday – Home Assistant integration" />
+    </a>
 </p>
 
 <p align="center">
-    <img height="180" src="https://streak-stats.demolab.com/?user=UnoSite&theme=holi-theme&ring=cad404&border=cad404&sideNums=cad404&currStreakNum=cad404&hide_border=true" alt="GitHub Streak" />
+    <a href="https://hama.unosite.dk">
+        <img src="assets/links/hama.svg" width="420" alt="Hama Bead Stock" />
+    </a>
 </p>
 
-### :trophy: GitHub Trophies
+<p align="center">
+    <a href="https://github.com/UnoSite?tab=repositories">
+        <img src="assets/links/repos.svg" width="420" alt="All projects" />
+    </a>
+</p>
 
 <p align="center">
-    <img src="profile/trophy.svg" width="100%" alt="GitHub Trophies" />
+    <a href="https://github.com/UnoSite">
+        <img src="assets/links/github.svg" width="420" alt="Follow UnoSite on GitHub" />
+    </a>
 </p>
