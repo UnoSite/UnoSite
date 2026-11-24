@@ -17,7 +17,7 @@
 
 <p align="center">
     <a href="https://hama.unosite.dk">
-        <img src="assets/links/hama.svg" width="420" alt="Hama Bead Stock" />
+        <img src="assets/links/hama.svg" width="420" alt="Hama Bead Stock – App for web, Android &amp; iOS" />
     </a>
 </p>
 
