@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="420" height="56" viewBox="0 0 420 56" role="img" aria-label="Hama Bead Stock">
-  <rect x="1.5" y="1.5" width="417" height="53" rx="26" fill="#161b22" stroke="#cad404" stroke-width="3"/>
-  <text x="210" y="35" text-anchor="middle" fill="#cad404" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="600">Hama Bead Stock  →</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="68" viewBox="0 0 420 68" role="img" aria-label="Hama Bead Stock – App for web, Android &amp; iOS">
+  <rect x="1.5" y="1.5" width="417" height="65" rx="32" fill="#161b22" stroke="#cad404" stroke-width="3"/>
+  <text x="210" y="31" text-anchor="middle" fill="#cad404" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="600">Hama Bead Stock  →</text>
+  <text x="210" y="51" text-anchor="middle" fill="#cad404" fill-opacity="0.75" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13">App for web, Android &amp; iOS</text>
 </svg>
