@@ -23,7 +23,7 @@
 
 <p align="center">
     <a href="https://github.com/UnoSite?tab=repositories">
-        <img src="assets/links/repos.svg" width="420" alt="All projects" />
+        <img src="assets/links/repos.svg" width="420" alt="All projects – Browse all my GitHub repos" />
     </a>
 </p>
 
