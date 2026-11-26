@@ -35,6 +35,6 @@
 
 <p align="center">
     <a href="https://status.unosite.dk">
-        <img src="assets/links/status.svg" width="420" alt="Status" />
+        <img src="assets/links/status.svg" width="420" alt="Status – Live service status" />
     </a>
 </p>
