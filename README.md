@@ -23,12 +23,12 @@
 
 <p align="center">
     <a href="https://github.com/UnoSite?tab=repositories">
-        <img src="assets/links/repos.svg" width="420" alt="All projects" />
+        <img src="assets/links/repos.svg" width="420" alt="All projects – Browse all my GitHub repos" />
     </a>
 </p>
 
 <p align="center">
-    <a href="https://github.com/UnoSite">
-        <img src="assets/links/github.svg" width="420" alt="Follow UnoSite on GitHub" />
+    <a href="https://status.unosite.dk">
+        <img src="assets/links/status.svg" width="420" alt="Status – Live service status" />
     </a>
 </p>

@@ -19,22 +19,24 @@ Everything in this repo is written in **English**. The repo is **public**: follo
 |---|---|---|
 | IsItPayday (subtitle: Home Assistant integration) | `isitpayday.svg` | https://github.com/UnoSite/IsItPayday |
 | Hama Bead Stock (subtitle: App for web, Android & iOS) | `hama.svg` | https://hama.unosite.dk |
-| All projects | `repos.svg` | https://github.com/UnoSite?tab=repositories |
-| Follow UnoSite on GitHub | `github.svg` | https://github.com/UnoSite |
+| All projects (subtitle: Browse all my GitHub repos) | `repos.svg` | https://github.com/UnoSite?tab=repositories |
+| Status (subtitle: Live service status) | `status.svg` | https://status.unosite.dk |
 
 Only link to public repos.
 
 ## Add a link
-1. `.claude/skills/unosite-profil/new-button.sh <filename> "<Label>" ["<Subtitle>"]` (the arrow is added automatically; the optional subtitle is shown in smaller text below).
+**Every button must have a subtitle.** If the user gives none, suggest a few (in English) and let them pick.
+
+1. `.claude/skills/unosite-profil/new-button.sh <filename> "<Label>" "<Subtitle>"` (the arrow is added automatically; the subtitle is shown in smaller text below).
 2. Insert in `README.md` next to the other buttons:
    ```html
    <p align="center">
        <a href="URL">
-           <img src="assets/links/<filename>.svg" width="420" alt="<Label>" />
+           <img src="assets/links/<filename>.svg" width="420" alt="<Label> – <Subtitle>" />
        </a>
    </p>
    ```
-3. Add the same link to `index.html`: `<li><a class="link" href="URL"><Label> →</a></li>` (with subtitle: `<Label> →<small><Subtitle></small>`).
+3. Add the same link to `index.html`: `<li><a class="link" href="URL"><Label> →<small><Subtitle></small></a></li>`.
 4. Update the table above.
 
 **Links live in two places (README.md and index.html) – always update both.**
