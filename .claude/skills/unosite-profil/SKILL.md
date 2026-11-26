@@ -20,7 +20,6 @@ Everything in this repo is written in **English**. The repo is **public**: follo
 | IsItPayday (subtitle: Home Assistant integration) | `isitpayday.svg` | https://github.com/UnoSite/IsItPayday |
 | Hama Bead Stock (subtitle: App for web, Android & iOS) | `hama.svg` | https://hama.unosite.dk |
 | All projects | `repos.svg` | https://github.com/UnoSite?tab=repositories |
-| Follow UnoSite on GitHub | `github.svg` | https://github.com/UnoSite |
 | Status (subtitle: Live service status) | `status.svg` | https://status.unosite.dk |
 
 Only link to public repos.
