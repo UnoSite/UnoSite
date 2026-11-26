@@ -32,3 +32,9 @@
         <img src="assets/links/github.svg" width="420" alt="Follow UnoSite on GitHub" />
     </a>
 </p>
+
+<p align="center">
+    <a href="https://status.unosite.dk">
+        <img src="assets/links/status.svg" width="420" alt="Status" />
+    </a>
+</p>
